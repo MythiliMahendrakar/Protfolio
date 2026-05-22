@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythili Mahendrakar Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #4CAF50, #2e7d32);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2e7d32;
+      border-bottom: 3px solid #4CAF50;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    /* Skills Styling */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills span {
+      background: #e8f5e9;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #2e7d32;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Project Cards */
+    .project {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #fff;
+      background: #4CAF50;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .project a:hover {
+      background: #2e7d32;
+    }
+
+    /* Certifications */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 12px;
+      border-left: 5px solid #4CAF50;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Contact Section */
+    #contact p {
+      font-size: 1rem;
+    }
+    #contact a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mythili Mahendrakar</h1>
+  <p>Python & Java Developer | Full Stack Enthusiast</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Motivated B.Tech graduate in Electronics and Communication Engineering with hands-on expertise in Python Full Stack Development. Passionate about building scalable web applications and solving real-world problems.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span><span>Java</span><span>C</span><span>Oracle SQL</span>
+    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Django</span>
+    <span>VS Code</span><span>PyCharm</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Blood Management System</h3>
+    <p>Developed a web-based system to track and manage blood donations and inventory efficiently. Backend with MongoDB, secure APIs, and real-time analytics.</p>
+    <a href="https://github.com/MythiliMahendrakar/Blood-management-system-web-development-project-" target="_blank">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Solar-Powered Smart Stick</h3>
+    <p>Designed a smart stick for visually impaired individuals using Raspberry Pi, Arduino, and TensorFlow for object recognition and navigation assistance.</p>
+    <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003685364-71/embedded-based-solar-powered-smart-stick-sight-impaired-individual-anil-kumar-madhavi-bharath-simha-reddy-mythili-sowjanya?context=ubx&refId=ce646b87-db80-4499-82a3-8b81d892e58e" target="_blank">Publication</a>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>Python Full Stack Development - JSpiders</li>
+    <li>Cybersecurity Essentials - Cisco Networking Academy</li>
+    <li>Python Training - Besant Technologies</li>
+    <li>Generative AI Internship - Google Cloud (EduSkills)</li>
+    <li>Introduction to IoT - NPTEL</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:mahendrakarmythili@gmail.com">mahendrakarmythili@gmail.com</a></p>
+  <p>Phone: <a href="tel:+918019900474">+91 8019900474</a></p>
+  <p>Languages: English, Telugu, Hindi, Marathi, Spanish</p>
+</section>
+
+<footer>
+  <p>© 2026 Mythili Mahendrakar | Portfolio</p>
+</footer>
+
+</body>
+</html>
